@@ -1,0 +1,22 @@
+/* General Styles 
+h1: font-family: 'Frijole', cursive; font-size: 3em; font-weight: 400
+h2,h3: font-family: 'Oswald', sans-serif;
+*/
+body {
+    background: rgb(111, 208, 224);
+    background: linear-gradient(0deg,rgb(111, 208, 224) 0%, rgb(171, 228, 167) 100%);
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (min-width: 650px) {
+    h1 {
+        font-size: 5em;
+    }
+}
+
+@media (min-width: 920px) {
+    h1 {
+        font-size: 8em;
+    }
+}
