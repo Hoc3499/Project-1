@@ -15,8 +15,47 @@
     <script defer src="app.js"></script>
 </head>
 <body>
-    <header>
-    </header>
-    <footer>
-    </footer>
+    <div class="container">
+        <h2>hello</h2>
+        <h1>DINOSAURS</h1>
+        <h2 class="title-form">How do you compare?</h2>
+        
+        <form id="form" action="">
+            <div class="info-item">
+                <h2 class="info">Name:</h2>
+                <input type="text">
+            </div>
+
+            <div class="info-item">
+                <h2 class="info">Height</h2>
+                <label class="feet">Feet:</label>
+                <input type="text">
+                <label class="inches">Inches:</label>
+                <input type="text">
+            </div>
+          
+           <div class="info-item">
+                <h2 class="info">Weight:</h2>
+                <input type="text">
+                <p>lbs</p>
+           </div>
+
+          <div class="info-item">
+              <h2 class="info">Diet</h2>
+              <select name="diet" id="diet">
+                <option value="herbivores">Herbivores</option>
+                <option value="carnivores">Carnivores</option>
+                <option value="omnivores">Omnivores</option>
+            </select>
+          </div>
+          <div class="info-item">
+          <button >Compare Me!</button>
+          <button>Clear All</button>
+          </div>
+
+        </form>
+        <p class="source">Data sourced from <a href="#">Wikipedia.org</a>. All numbers are approximations.</p>
+        <h1 style="font-size: 25px" class="project">A PROJECT FOR UDACITY'S INTERMEDIATE JAVASCRIPT NANODEGREE</h1>
+
+    </div>
 </body>
