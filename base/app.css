@@ -51,13 +51,14 @@ body {
 }
 
 form {
+    border-radius: 20px;
     width: 380px;
     height: 400px;
     margin-top: 20px;
     background-color: #e6e6e6;
 }
 
-.info-item {
+.form-item {
     margin: 15px 20px
 }
 
@@ -91,12 +92,14 @@ form div:nth-child(5)  {
 }
 
 input {
+    border-radius: 8px;
     border: none;
     padding: 5px;
     outline: none;
 }
 
 button {
+    border-radius: 8px;
     border: none;
     padding: 10px;
     background: #cacaca;
@@ -104,7 +107,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    opacity: 0.9;
+    background: #b0b0b0;
 }
 
 select {
