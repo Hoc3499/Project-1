@@ -21,26 +21,29 @@
         <h2 class="title-form">How do you compare?</h2>
         
         <form id="form" action="">
-            <div class="form-item">
+            <div class="form-group">
                 <h2 class="info">Name:</h2>
-                <input type="text">
+                <input class="name" type="text">
+                <span class="error-message"></span>
             </div>
 
-            <div class="form-item">
+            <div class="form-group">
                 <h2 class="info">Height</h2>
-                <label class="feet">Feet:</label>
-                <input type="text">
-                <label class="inches">Inches:</label>
-                <input type="text">
+                <label>Feet:</label>
+                <input class="feet" type="text">
+                <label class="height-inches">Inches:</label>
+                <input class="inches" type="text">
+                <span class="error-message"></span>
             </div>
           
-           <div class="form-item">
+           <div class="form-group">
                 <h2 class="info">Weight:</h2>
-                <input type="text">
+                <input class="weight" type="text">
                 <p>lbs</p>
+                <span class="error-message"></span>
            </div>
 
-          <div class="form-item">
+          <div class="form-group">
               <h2 class="info">Diet</h2>
               <select name="diet" id="diet">
                 <option value="herbivores">Herbivores</option>
@@ -48,8 +51,8 @@
                 <option value="omnivores">Omnivores</option>
             </select>
           </div>
-          <div class="form-item">
-          <button >Compare Me!</button>
+          <div class="form-group">
+          <button onClick="Validate()" >Compare Me!</button>
           <button onClick="clearInput()">Clear All</button>
           </div>
 
@@ -63,4 +66,4 @@
 <!-- 1. Tat ca cac truong k dc trong
     2. Ten khong chua ky tu dac biet tru dau cach, loai bo khoang trang o dau va cuoi.
     3. Chieu cao, can nang la so > 0.
--->
+--> 

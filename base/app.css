@@ -53,13 +53,22 @@ body {
 form {
     border-radius: 20px;
     width: 380px;
-    height: 400px;
+    height: 450px;
     margin-top: 20px;
     background-color: #e6e6e6;
 }
 
-.form-item {
+.form-group {
     margin: 15px 20px
+}
+
+.Invalid input{
+    outline: 1px solid red
+}
+
+.error-message {
+    margin-top: 5px;
+    color: red;
 }
 
 .info {
@@ -70,21 +79,21 @@ form div:nth-child(1) {
     margin-top: 25px;
 }
 
-form div:nth-child(1) input {
+form div input {
     width: 100%;
 }
 
-form div:nth-child(2) input {
-    width: 25%;
+form div:nth-child(2) input{
+    width: 33%;
 }
 
-.inches {
+
+
+.height-inches {
     margin-left: 10px;
 }
 
-form div:nth-child(3) input {
-    width: 100%;
-}
+
 
 form div:nth-child(5)  {
     display: flex;
