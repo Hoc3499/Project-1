@@ -128,3 +128,28 @@ select {
     font-size: 12px;
 }
 
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+li {
+    width:32%;
+    height: 250px;
+    margin: 20px 0;
+    background: #6bbfa2;
+    text-align: center;
+    list-style: none;
+}
+
+
+.hide {
+    display: none;
+}
+
+img {
+    width: 40%
+}
